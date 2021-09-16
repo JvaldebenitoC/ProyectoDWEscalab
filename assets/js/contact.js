@@ -15,7 +15,7 @@ send.onclick = function(){
     }else if (msg.value.trim() == '' || msg == null || msg.length == 0 || /^\s+$/.test(msg)){
         alert("Ingresa un mensaje");   
     }else{
-        alert("Muchas gracias por enviar tus datos, me pondre en contacto contigo a la brevedad");
+        alert("Muchas gracias por enviar tus datos, me pondré en contacto contigo a la brevedad");
     }
     nombre.value = "";
     email.value = "";
