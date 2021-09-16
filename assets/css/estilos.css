@@ -645,14 +645,14 @@ header .navigation li:hover{
         transition: 0.3s ease;
     }
     .main{
-        background: url(/assets/img/PrincipalCV2png.png)no-repeat; 
+        background: url("../img/PrincipalCV2png.png")no-repeat; 
         background-size: cover; 
         background-position: center; 
         background-attachment: initial;
     }
     .menu-btn{
         position: absolute;
-        background: url(/assets/img/menu1.png)no-repeat;
+        background: url("../img/menu1.png")no-repeat;
         background-size: 30px;
         background-position: center;
         background-color: rgba(128,101,166,0.46);
@@ -666,7 +666,7 @@ header .navigation li:hover{
     }
     .menu-btn.active{
         z-index: 999;
-        background: url(/assets/img/close1.png)no-repeat;
+        background: url("../img/close1.png")no-repeat;
         background-size: 25px;
         background-position: center;
         background-color: rgba(128,101,166,0.46);
